@@ -12,6 +12,5 @@ class CollapsibleTableViewHeader: UITableViewCell {
     
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var toggleButton: UIButton!
-    @IBOutlet weak var imageHeader: UIImageView!
     
 }

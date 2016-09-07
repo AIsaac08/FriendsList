@@ -10,7 +10,6 @@
 		BF793F731D802E5000432E12 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793F721D802E5000432E12 /* FriendTableViewCell.swift */; };
 		BF793F761D8036A300432E12 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF793F751D8036A300432E12 /* default.png */; };
 		BF793F7B1D80480C00432E12 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793F7A1D80480C00432E12 /* Friend.swift */; };
-		BF793F831D8057BD00432E12 /* FriendHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793F821D8057BD00432E12 /* FriendHeaderTableViewCell.swift */; };
 		BF793F851D8068A000432E12 /* CollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF793F841D8068A000432E12 /* CollapsibleTableViewHeader.swift */; };
 		BFA9864C1D7FABAF0051BB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9864B1D7FABAF0051BB59 /* AppDelegate.swift */; };
 		BFA9864E1D7FABAF0051BB59 /* FollowFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA9864D1D7FABAF0051BB59 /* FollowFriendsViewController.swift */; };
@@ -42,7 +41,6 @@
 		BF793F721D802E5000432E12 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
 		BF793F751D8036A300432E12 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		BF793F7A1D80480C00432E12 /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
-		BF793F821D8057BD00432E12 /* FriendHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		BF793F841D8068A000432E12 /* CollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
 		BFA986481D7FABAF0051BB59 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA9864B1D7FABAF0051BB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				BF793F721D802E5000432E12 /* FriendTableViewCell.swift */,
-				BF793F821D8057BD00432E12 /* FriendHeaderTableViewCell.swift */,
 				BF793F841D8068A000432E12 /* CollapsibleTableViewHeader.swift */,
 			);
 			name = Cells;
@@ -308,7 +305,6 @@
 				BF793F851D8068A000432E12 /* CollapsibleTableViewHeader.swift in Sources */,
 				BFA9864E1D7FABAF0051BB59 /* FollowFriendsViewController.swift in Sources */,
 				BFA9864C1D7FABAF0051BB59 /* AppDelegate.swift in Sources */,
-				BF793F831D8057BD00432E12 /* FriendHeaderTableViewCell.swift in Sources */,
 				BF793F7B1D80480C00432E12 /* Friend.swift in Sources */,
 				BF793F731D802E5000432E12 /* FriendTableViewCell.swift in Sources */,
 			);
