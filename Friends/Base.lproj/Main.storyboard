@@ -217,42 +217,6 @@
             </objects>
             <point key="canvasLocation" x="-961.5" y="-635"/>
         </scene>
-        <!--Apple Products-->
-        <scene sceneID="ICE-0h-A6L">
-            <objects>
-                <tableViewController id="UA8-89-9tY" customClass="CollapsibleTableViewController" customModule="Friends" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="50" sectionFooterHeight="28" id="az4-gY-dCx">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cell" id="Va1-yS-Q6F">
-                                <rect key="frame" x="0.0" y="50" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Va1-yS-Q6F" id="dHA-79-aP2">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="UA8-89-9tY" id="QbQ-XS-YLU"/>
-                            <outlet property="delegate" destination="UA8-89-9tY" id="FhF-1H-TKd"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Apple Products" id="mMN-Sz-JcF"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vdh-Um-Ok0" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchBar contentMode="redraw" barStyle="black" placeholder="Search friends" id="XFe-Pj-wVQ">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="barTintColor" red="0.053222560340000002" green="0.20533024690000001" blue="0.4027207807" alpha="1" colorSpace="calibratedRGB"/>
-                    <textInputTraits key="textInputTraits"/>
-                </searchBar>
-            </objects>
-            <point key="canvasLocation" x="-301.5" y="-635"/>
-        </scene>
     </scenes>
     <resources>
         <image name="default.png" width="640" height="480"/>
