@@ -62,7 +62,7 @@ class FollowFriendsViewController: UIViewController, UITableViewDataSource, UITa
         
         let twitterContacts: [Friend] = [
             Friend(id: 6, name: "Led Zeppelin"),
-            Friend(id: 7, name: "Johnhn Lenon"),
+            Friend(id: 7, name: "John Lenon"),
             Friend(id: 8, name: "Pink Floyd")
         ]
         
